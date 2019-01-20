@@ -1,4 +1,4 @@
-package com.dbabych.lemon.java.hmfour.tictactoe;
+package ua.kh.dbabych.training.tictactoedemo;
 
 import java.util.*;
 
@@ -7,6 +7,10 @@ public class TicTacToeDemo {
     static int numberOfmoves = 0;
     static boolean finishGame = false;
     static char[][] arr = new char[3][3];
+
+    public static void main(String[] args) {
+        GameTicTacToe();
+    }
 
     static void GameTicTacToe() { // Начало игры ;
         Scanner scan = new Scanner(System.in);
@@ -104,8 +108,5 @@ public class TicTacToeDemo {
         System.out.println("Конец игры ! Поздравляем Вас !");
     }
 
-    public static void main(String[] args) {
-        GameTicTacToe();
 
-    }
 }

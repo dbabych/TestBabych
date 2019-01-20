@@ -1,8 +1,8 @@
-package com.dbabych.lemon.java.hmthree;
+package ua.kh.dbabych.training.randomarrays;
 
 import java.util.Random;
 
-public class AppThree {
+public class RandomArray {
 
     static char[][] arr = new char[10][10];
 
