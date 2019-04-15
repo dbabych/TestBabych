@@ -98,6 +98,7 @@ public class TicTacToeDemo {
         }
     }
 
+
     static void Draw() {
         finishGame = true;
         System.out.println("Конец игры ! Ничья !");
